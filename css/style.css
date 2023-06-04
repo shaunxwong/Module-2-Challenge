@@ -441,16 +441,6 @@ section {
     padding-bottom: 56px;
 }
 
-.footer .flink a {
-    color: var(--white);
-    display: block;
-    position: relative;
-    transition: all .3s ease;
-}
-
-.footer .flink a:hover {
-    opacity: .7;
-}
 
     /*- about -*/
     .about {
