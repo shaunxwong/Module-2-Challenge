@@ -2,11 +2,10 @@
 :root {
     --black: #161616;
     --white: #FDFDFB;
-    --orange: #FFC283;
     --lightblue: #DDE9F2;
     --lightyellow: #DDFFBC;
     --lightorange: #FFDCB8;
-   
+    --orange: #FFC283;
 }
 
 
@@ -110,7 +109,7 @@ align-items: center;
 }
 
 .getintouch>div {
-width: 80%;
+width: 50%;
 }
 
 
@@ -171,8 +170,8 @@ width: 80%;
     color: var(--black);
     border: 2px solid var(--black);
     border-radius: 50px;
-    padding: 16px 24px;
-    box-shadow: 4px 4px var(--black);
+    padding: 15px 30px;
+    box-shadow: 5px 5px var(--black);
     width: fit-content;
     transition: box-shadow .3s ease;
 }
@@ -300,7 +299,7 @@ section {
     width: 100%;
     height: 100%;
     background: var(--orange);
-    border-radius: 48px;
+    border-radius: 50px;
     border: 2px solid var(--black);
     padding: 24px;
     display: flex;
@@ -457,6 +456,7 @@ section {
     .about {
         flex-direction: column;
         text-align: center;
+        gap: 5vw;
     }
 
     .about .aboutImg {
@@ -467,8 +467,76 @@ section {
         width: 100%;
     }
 
+    /*- projects -*/
+    .project .projectCards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4vw;
+    }
 
+    .project .projectCards>div {
+        width: 43vw;
+    }
 
+    /*- skills -*/
+    .skills .skillsHeader {
+        width: 55%;
+    }
+
+    .skillsCard {
+        margin-top: 10vw;
+        border-radius: 40px;
+    }
+
+    .skillsCard .skillsCard_inner {
+        border-radius: 36px;
+        padding: 56px 24px 24px 24px;
+    }
+
+    .skillsCard .skillsCard_inner .skillsCard_header {
+        width: 100%;
+    }
+
+    .skillsCard .skillsCard_inner .skillsCard_header h2 {
+        margin-top: 56px;
+    }
+
+    .skillsCard .skillsCard_inner .skillsCard_table {
+        margin-top: 5.2vw;
+        border-radius: 30px;
+        padding: 5vw;
+    }
+
+    .skillsCard .skillsCard_inner .skillsCard_table>div {
+        margin-top: 5.2vw;
+        gap: 10vw;
+    }
+
+    .skillsCard .skillsCard_inner .skillsCard_table>div ul li {
+        margin-top: 5.2vw;
+    }
+
+    .rotate {
+        top: -10vw;
+        right: 0vw;
+    }
+
+    .rotate img {
+        width: 22vw;
+    }
+
+ 
+    /*- get in touch -*/
+    .getintouch>div {
+        width: 80%;
+    }
+
+    /*- footer -*/
+    .footer {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
 }
 
 @media (max-width: 670px) {
@@ -479,11 +547,6 @@ section {
     .Vcontainer {
         padding-top: 160px;
         padding-bottom: 96px;
-    }
-
-    .container {
-        padding-left: 24px;
-        padding-right: 24px;
     }
 
     .btn {
@@ -514,15 +577,6 @@ section {
     .about .aboutImg {
         width: 90%;
     }
-
-
-    .skillsCard .skillsCard_inner .skillsCard_table>div {
-        margin-top: 32px;
-        display: flex;
-        justify-content: center;
-        gap: 32px;
-    }
-
 
     /*- projects -*/
     .project .projectCards {
