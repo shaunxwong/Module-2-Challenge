@@ -20,7 +20,7 @@ To meet the acceptance criteria and set expectations, my portfolio page lays out
 
 1. **Introduction:** Upon loading, my portfolio greets visitors with my name, a stunning recent photo or avatar, and enchanting links to sections about me, my work, and how to contact me.
 
-2. ** Navigation:** With a single click on the navigation links, users embark on a smooth and captivating journey. The UI gracefully scrolls to the corresponding sections, effortlessly guiding visitors through my virtual wonderland.
+2. **Navigation:** With a single click on the navigation links, users embark on a smooth and captivating journey. The UI gracefully scrolls to the corresponding sections, effortlessly guiding visitors through my virtual wonderland.
 
 3. **Showcases:** In the section dedicated to my work, a gallery of titled images awaits. Each image represents a remarkable application I've conjured up. The first application image stands out as a hero, instantly capturing attention.
 
