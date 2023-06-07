@@ -10,7 +10,7 @@ I am thrilled to present my submission for the exciting Portfolio Page assignmen
 
 This assignment unleashed my web development skills as I crafted a stunning portfolio page from scratch. It showcases my talents and expertise. By creating this portfolio, I'm prepared to wow my potential employers and leave a good impression.
 
-## User Story - To capture the Employer's Imagination
+## User Story - To capture the Employer's Attention
 
 Imagine being an employer with the power to peek into a potential candidate's world of accomplishments. Employers can explore my creations, assess my skills, and decide whether I'm the perfect fit for their team. 
 
