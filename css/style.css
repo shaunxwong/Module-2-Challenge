@@ -189,8 +189,8 @@ section {
 }
 /* Control the left and right padding for sections */
 .container {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 
 /* Control the top and bottom padding for sections */
