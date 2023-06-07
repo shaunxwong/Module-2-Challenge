@@ -4,7 +4,7 @@
 
 Greetings, fellow evaluators! 🌟
 
-I am thrilled to present my submission for the exciting Portfolio Page assignment. Brace yourselves for a captivating journey through my web development prowess and creative endeavors. Let's dive in!
+I am thrilled to present my submission for the exciting Portfolio Page assignment. Let's dive in!
 
 ## Task Description - Unleashing My Skills
 
