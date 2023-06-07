@@ -29,13 +29,14 @@ To meet the acceptance criteria and set expectations, my portfolio page lays out
 5. **Responsive:** My portfolio page is not bound by limitations. It effortlessly adapts to different screen sizes and devices, ensuring a delightful experience for everyone.
 
 
+
 ## Submission Details 
 
 As part of my submission, I've conjured up the following enchantments:
 
-1. **Deployed Application:** Witness yourself by visiting [URL of the deployed application]. 
+1. **Deployed Page:** Visit my webpage https://shaunxwong.github.io/Module-2-Challenge/ . 
 
-2. **GitHub Repository:** explore the [URL of the GitHub repository].
+2. **GitHub Repository:** explore the Repo https://github.com/shaunxwong/Module-2-Challenge.git.
 
 
 Shaun Wong✨
