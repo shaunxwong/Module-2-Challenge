@@ -28,6 +28,7 @@ By applying styles to the * selector, setting styles as the default for all elem
 * {
     margin: 0;
     padding: 0;
+    gap: 1vw;
     box-sizing: border-box;
 }
 
@@ -243,14 +244,39 @@ section {
 }
 
 .project .projectCards {
-    display: flex;
-    gap: 1.8vw;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+
 }
+
+.cardNormal {
+    flex: 0 0 auto;
+    width: 28%;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.cardFeature {
+    flex: 0 0 auto;
+    width: 58%;
+    max-width: 100%;
+    border-radius: 16px;
+    
+}
+
+.cardSmall {
+    grid-template-columns: repeat(1,1fr);
+    gap: 1vw;
+    display: grid !important;
+    align-items: center;
+    align-content: center;
+}
+
 
 .project .projectCards>div {
     cursor: pointer;
     overflow: hidden;
-    border-radius: 50px;
 }
 
 .project .projectCards>div img {
